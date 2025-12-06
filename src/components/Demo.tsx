@@ -14,12 +14,7 @@ const Demo = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-card aspect-video cursor-pointer">
             <link rel="preconnect" href="https://www.youtube.com" />
             <link rel="preconnect" href="https://www.google.com" />
-            <div
-              className="absolute inset-0 w-full h-full bg-center bg-cover"
-              style={{
-                backgroundImage: `url(https://i.ytimg.com/vi_webp/oLmMNIK7fCE/sddefault.webp)`,
-              }}
-            />
+            <div className="absolute inset-0 w-full h-full bg-center bg-cover" />
             <iframe
               src="https://www.youtube.com/embed/fUWeOYTLw8o?si=4l3tfTlg3KjqM1JU"
               title="Hunch Demo Video"
