@@ -11,11 +11,19 @@ const Demo = () => {
         </p>
 
         <div className="max-w-4xl mx-auto">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-card aspect-video">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-card aspect-video cursor-pointer">
+            <link rel="preconnect" href="https://www.youtube.com" />
+            <link rel="preconnect" href="https://www.google.com" />
+            <div
+              className="absolute inset-0 w-full h-full bg-center bg-cover"
+              style={{
+                backgroundImage: `url(https://i.ytimg.com/vi_webp/oLmMNIK7fCE/sddefault.webp)`,
+              }}
+            />
             <iframe
-              src="https://www.youtube.com/embed/oLmMNIK7fCE"
+              src="https://www.youtube.com/embed/oLmMNIK7fCE?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=1"
               title="Hunch Demo Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="absolute inset-0 w-full h-full"
             />
