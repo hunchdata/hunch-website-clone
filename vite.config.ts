@@ -15,4 +15,9 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // GitHub Pages configuration
+  base: process.env.NODE_ENV === 'production' ? '/hunch-clone/' : '/',
+  build: {
+    outDir: 'docs',
+  },
 }));
