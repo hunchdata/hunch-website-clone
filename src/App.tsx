@@ -1,9 +1,9 @@
-import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
+import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -17,12 +17,12 @@ const GitHubPagesRedirectHandler = () => {
     // Handle the redirect from 404.html for GitHub Pages
     const handleRedirect = () => {
       const l = window.location;
-      if (l.search && l.search[0] === '?') {
+      if (l.search && l.search[0] === "?") {
         const searchParams = new URLSearchParams(l.search.slice(1));
-        const path = searchParams.get('/');
+        const path = searchParams.get("/");
         if (path) {
-          const decodedPath = path.replace(/~and~/g, '&');
-          navigate(decodedPath + (l.hash || ''), { replace: true });
+          const decodedPath = path.replace(/~and~/g, "&");
+          navigate(decodedPath + (l.hash || ""), { replace: true });
         }
       }
     };
