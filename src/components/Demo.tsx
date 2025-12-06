@@ -21,9 +21,10 @@ const Demo = () => {
               }}
             />
             <iframe
-              src="https://www.youtube.com/embed/oLmMNIK7fCE?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=1"
+              src="https://www.youtube.com/embed/fUWeOYTLw8o?si=4l3tfTlg3KjqM1JU"
               title="Hunch Demo Video"
               allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
               className="absolute inset-0 w-full h-full"
             />

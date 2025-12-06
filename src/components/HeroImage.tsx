@@ -4,7 +4,7 @@ const HeroImage = () => {
       <div className="container">
         <div className="rounded-xl overflow-hidden shadow-2xl border border-border/50">
           <video
-            src="/videos/hero-video.webm"
+            src={`${import.meta.env.BASE_URL}videos/hero-video.webm`}
             autoPlay
             loop
             preload="auto"

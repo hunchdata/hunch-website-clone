@@ -4,27 +4,27 @@ const features = [
     title: "Tackle complex work",
     description:
       "Break down big projects into smaller tasks that AI can do well.",
-    video: "/videos/why-vid-1.webm",
+    video: `${import.meta.env.BASE_URL}videos/why-vid-1.webm`,
   },
   {
     number: "02 / 04",
     title: "All the top AI models",
     description:
       "Use the best AI models to write, code, illustrate, transcribe audio, synthesize speech, and more in one place. Choose the right model for each task or let Auto AI pick for you.",
-    video: "/videos/why-vid-2.webm",
+    video: `${import.meta.env.BASE_URL}videos/why-vid-2.webm`,
   },
   {
     number: "03 / 04",
     title: "Designed for productivity",
     description:
       "Every block is a rich text document. Hunch is your central hub for getting things done.",
-    video: "/videos/why-vid-3.webm",
+    video: `${import.meta.env.BASE_URL}videos/why-vid-3.webm`,
   },
   {
     number: "04 / 04",
     title: "Share reusable AI tools",
     description: "Share your work as easy-to-use tools to level up your team.",
-    video: "/videos/why-vid-4.webm",
+    video: `${import.meta.env.BASE_URL}videos/why-vid-4.webm`,
   },
 ];
 
