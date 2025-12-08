@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   // GitHub Pages configuration
-  base: process.env.NODE_ENV === "production" ? "/hunch-clone/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/hunch-website-clone/" : "/",
   build: {
     outDir: "dist",
   },
