@@ -64,12 +64,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://hunch.tools/docs" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                <a href="https://docs.hunch.tools/" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   Documentation
                 </a>
               </li>
               <li>
-                <a href="https://hunch.tools/blog" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                <a href="https://blog.hunch.tools/" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   Blog
                 </a>
               </li>

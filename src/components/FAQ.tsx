@@ -42,7 +42,7 @@ const FAQ = () => {
             <a href="https://hnch.link/discord">Join us on Discord</a>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12 text-base">
-            <a href="https://hunch.tools/docs">Read the docs</a>
+            <a href="https://docs.hunch.tools/">Read the docs</a>
           </Button>
         </div>
 

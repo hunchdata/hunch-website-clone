@@ -55,13 +55,13 @@ const Header = () => {
             Templates
           </a>
           <a
-            href="https://hunch.tools/blog/"
+            href="https://blog.hunch.tools/"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Blog
           </a>
           <a
-            href="https://hunch.tools/docs"
+            href="https://docs.hunch.tools/"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Docs
@@ -103,13 +103,13 @@ const Header = () => {
               Templates
             </a>
             <a
-              href="https://hunch.tools/blog/"
+              href="https://blog.hunch.tools/"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Blog
             </a>
             <a
-              href="https://hunch.tools/docs"
+              href="https://docs.hunch.tools/"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Docs
