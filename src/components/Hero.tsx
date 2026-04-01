@@ -18,9 +18,6 @@ const Hero = () => {
             <Button asChild size="lg" className="rounded-full px-8 h-12 text-base">
               <a href="https://app.hunch.tools/">Use Hunch for free</a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12 text-base">
-              <a href="https://hnch.link/dw">Book a demo</a>
-            </Button>
           </div>
         </div>
       </div>
